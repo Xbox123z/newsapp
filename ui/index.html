@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f5f7f6">
+<title>Breeze</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header id="topbar"></header>
+  <main id="stage"></main>
+  <nav id="tabs">
+    <button data-view="chats" aria-label="对话">
+      <svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v8a2.5 2.5 0 0 1-2.5 2.5H9l-4.2 3.4A.8.8 0 0 1 3.5 18.8V5.5Z"/></svg>
+      <span>对话</span>
+    </button>
+    <button data-view="roles" aria-label="角色">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.6"/><path d="M4.5 20c.6-3.8 3.7-6 7.5-6s6.9 2.2 7.5 6"/></svg>
+      <span>角色</span>
+    </button>
+    <button data-view="settings" aria-label="设置">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.8v2.4M12 18.8v2.4M4.2 12H1.8M22.2 12h-2.4M6.5 6.5 4.8 4.8M19.2 19.2l-1.7-1.7M17.5 6.5l1.7-1.7M4.8 19.2l1.7-1.7"/></svg>
+      <span>设置</span>
+    </button>
+  </nav>
+</div>
+<div id="sheet" hidden><div id="sheet-card"></div></div>
+<div id="toast" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+# 构建产物
+target/
+dist/
+build/
+*.apk
+*.aab
+*.exe
+*.msi
+
+# 依赖
+node_modules/
+
+# 签名材料（不要提交）
+*.jks
+*.keystore
+keystore.properties
+
+# 本地环境
+local.properties
+.env
+.DS_Store
+.idea/
+.vscode/
+*.log
