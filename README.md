@@ -38,7 +38,7 @@ API Key 只落在本机的应用数据目录，不经过任何中转服务器。
 
 | 平台 | 文件 | 说明 |
 | --- | --- | --- |
-| Android | `Breeze-android.apk` | Android 8.0+，arm64 / armv7 |
+| Android | `Breeze-android.apk` | Android 8.0+，arm64-v8a |
 | Windows | `Breeze-windows.zip` | 解压后双击 `Breeze.exe` |
 
 Windows 版依赖系统自带的 WebView2（Win10/11 默认已安装）。
