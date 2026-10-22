@@ -72,7 +72,7 @@ jobs:
       - name: Build APK
         run: |
           npm i -g @tauri-apps/cli@^2
-          tauri android build --apk --target aarch64 armv7
+          tauri android build --apk --debug --target aarch64 armv7
 
       - name: Collect APK
         run: |
